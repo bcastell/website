@@ -1,33 +1,9 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body class="grid">
-		<div class="header">
-			<a class="header-link header-title" href="/">Brandon Castellanos</a>
-			<a class="header-link" href="/">Home</a>
-			<a class="header-link" href="/">About</a>
-			<a class="header-link" href="/">Blog</a>
-			<a class="header-link" href="/">Projects</a>
-			<a class="header-link" href="/">Contact</a>
-		</div>
-		<div class="content">
-			<div class="content-text">
-				{{ .Content }}
-			</div>
-		</div>
-		<div class="footer">
-			<div class="footer-rights">
-				© 2017 Copyright Brandon Castellanos. All rights reserved.
-			</div>
-			<div class="footer-notes">
-				<p>This site is built with Hugo and hosted on GitHub.</p>
-				<p>The source code is available on GitHub.</p>
-			</div>
-		</div>
-	</body>
-</html>
+{{ partialCached "header/site-header.html" . }}
+
+<div class="content">
+	<div class="content-text">
+		{{ .Content }}
+	</div>
+</div>
+
+{{ partialCached "footer/site-footer.html" . }}
