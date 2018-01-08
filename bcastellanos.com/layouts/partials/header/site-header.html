@@ -3,9 +3,9 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title> {{ .Page.Description }} </title>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+		<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 	</head>
 	<body class="grid">
 		<div class="header">
@@ -14,5 +14,5 @@
 			<a class="header-link" href="/">About</a>
 			<a class="header-link" href="/">Blog</a>
 			<a class="header-link" href="/">Projects</a>
-			<a class="header-link" href="/">Contact</a>
+			<a class="header-link" href="{{ "contact" | relURL }}">Contact</a>
 		</div>
