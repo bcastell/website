@@ -6,38 +6,35 @@ date = 2017-12-20T12:37:16-08:00
 draft = false
 +++
 
-My name is Brandon Castellanos. I am a software engineer from the University of Southern California. I graduated with a B.S. in Computer Engineering in Spring 2017. Throughout my university years, I interned at Northrop Grumman and Qualcomm in the summers of 2015 and 2016, respectively.
-
-I am working on building this website from the bottom up to showcase my talents, share my experiences, and teach others what I have learned.
-
-This is some sample text to flood the homepage with plenty of content so get ready to take it all in at once.
-
-Allright well here goes nothing.
-
-Actually, let me take care of something first before I begin.
-
-This is something that I must finish and cannot be postponed.
-
-Otherwise bad things will happen.
-
-Like really really bad things.
-
-Okay I am almost done and will let you know.
-
-Almost there...
-
-I think I am done.
-
-Hmm...
-
-Everything seems to be in its right place.
-
-Lets begin shall we?
-
-Now hopefully that was not too much text.
-
-Take a look at this website and thanks for visiting.
-
-Cheers,
-
-Brandon Castellanos
+<div class="content">
+	<div class="homepage-content">
+		<div class="homepage-welcome">
+			<div class="homepage-title">Welcome,</div>
+			<div class="homepage-text">
+				<p>
+					My name is Brandon Castellanos. I am a software engineer from the University of Southern California.
+					I graduated with a B.S. in Computer Engineering in Spring 2017.
+					Throughout my university years, I interned at Northrop Grumman and Qualcomm in the summers of 2015 and 2016, respectively.
+				</p>
+				<p>
+					Have a look around my website. Hopefully you find something interesting and what you are looking for.
+				</p>
+				<p>
+					I will continue to keep this website updated with my latest thoughts. Writing good content is what I strive to do all the time.
+				</p>
+				<p>
+					So remember to have a good time and thanks for visiting.
+				</p>
+				<p>
+					Cheers,
+				</p>
+				<p>
+					Brandon
+				</p>
+			</div>
+		</div>
+		<div class="homepage-frame">
+			<img src="../img/home-portrait.jpg" alt="Photo of Brandon" class="homepage-img">
+		</div>
+	</div>
+</div>

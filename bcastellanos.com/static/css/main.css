@@ -59,6 +59,52 @@ a:hover {
 	line-height: calc(1.8em + 0.75vw);
 }
 
+.homepage-content {
+	display: flex;
+}
+
+.homepage-welcome {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+.homepage-frame {
+	width: 30%;
+	margin-left: 2em;
+}
+
+.homepage-img {
+	border: 1px solid black;
+	padding: 5%;
+	width: 90%;
+	max-width: 90%;
+}
+
+@media (max-width: 800px) {
+	.homepage-content {
+		flex-direction: column;
+	}
+
+	.homepage-welcome {
+		width: 100%;
+	}
+
+	.homepage-frame {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.homepage-img {
+		padding: 2%;
+		width: 50%;
+		max-width: 50%;
+		display: block;
+		margin: 0 auto;
+		min-width: 120px;
+	}
+}
+
 .footer {
 	display: flex;
 	align-items: center;
@@ -157,7 +203,6 @@ a:hover {
 
 @media (max-width: 840px) {
 	.contact-media-group {
-		display: flex;
 		flex-direction: column;
 	}
 
@@ -165,5 +210,14 @@ a:hover {
 		text-align: center;
 		padding: calc(10px + 0.5vw) 0;
 	}
+}
+
+.about-title {
+	font-family: "Montserrat", sans-serif;
+	font-size: calc(32px + 1.75vw);
+	color: #111;
+	font-weight: 700;
+	line-height: calc(2.2em + 1.0vw);
+	margin: 0 0 1em 0;
 }
 
