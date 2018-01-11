@@ -8,5 +8,5 @@ weight = "2"
 +++
 
 <div class="content">
-	<div class="about-title">A little about myself...</div>
+	<h1>A little about myself...</h1>
 </div>

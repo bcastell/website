@@ -5,7 +5,23 @@ a {
 
 a:hover {
 	background-color: #feda00;
-	transition: background-color .2s ease-out;
+	transition: background-color 0.2s ease-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", sans-serif;
+	color: #111;
+	font-weight: 700;
+	line-height: calc(1.2em + 0.5vw);
+	margin: 0 0 0.6em 0;
+}
+
+h1 {
+	font-size: calc(2.5em + 1vw);
+}
+
+h2 {
+	font-size: calc(1.8em + 0.75vw);
 }
 
 .grid {
@@ -49,14 +65,6 @@ a:hover {
 	font-size: calc(12px + 0.25vw);
 	color: #111;
 	line-height: calc(1.6em + 0.5vw);
-}
-
-.homepage-title {
-	font-family: "Montserrat", sans-serif;
-	font-size: calc(20px + 1.5vw);
-	color: #111;
-	font-weight: 700;
-	line-height: calc(1.8em + 0.75vw);
 }
 
 .homepage-content {
@@ -136,15 +144,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-.contact-title {
-	font-family: "Montserrat", sans-serif;
-	font-size: calc(32px + 1.75vw);
-	color: #111;
-	font-weight: 700;
-	line-height: calc(2.2em + 1.0vw);
-	margin: 0 0 1em 0;
-}
-
 .contact-text {
 	font-family: 'Open Sans', sans-serif;
 	font-size: calc(12px + 0.25vw);
@@ -160,35 +159,15 @@ a:hover {
 	font-family: 'Montserrat', sans-serif;
 	font-size: calc(10px + 0.5vw);
 	color: #111;
-	transition: background-color .2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.contact-button:hover {
+	background-color: #aaa;
 }
 
 .email-button {
 	align-self: center;
-}
-
-.email-button:hover {
-	background-color: #aaa;
-}
-
-.linkedin-button:hover {
-	background-color: #0077b5;
-}
-
-.github-button:hover {
-	background-color: #eb0066;
-}
-
-.angellist-button:hover {
-	background-color: #fd7e14;
-}
-
-.contact-subtitle {
-	font-family: 'Montserrat', sans-serif;
-	font-size: calc(22px + 1.25vw);
-	color: #111;
-	font-weight: 700;
-	margin: 0 0 1em 0;
 }
 
 .contact-media {
@@ -210,14 +189,5 @@ a:hover {
 		text-align: center;
 		padding: calc(10px + 0.5vw) 0;
 	}
-}
-
-.about-title {
-	font-family: "Montserrat", sans-serif;
-	font-size: calc(32px + 1.75vw);
-	color: #111;
-	font-weight: 700;
-	line-height: calc(2.2em + 1.0vw);
-	margin: 0 0 1em 0;
 }
 

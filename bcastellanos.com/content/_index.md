@@ -9,7 +9,7 @@ draft = false
 <div class="content">
 	<div class="homepage-content">
 		<div class="homepage-welcome">
-			<div class="homepage-title">Welcome,</div>
+			<h1>Welcome,</h1>
 			<div class="homepage-text">
 				<p>
 					My name is Brandon Castellanos. I am a software engineer from the University of Southern California.
