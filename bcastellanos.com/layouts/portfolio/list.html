@@ -1,0 +1,45 @@
+{{ partial "header/site-header.html" . }}
+
+<div class="content">
+	<h1>Learn by doing.</h1>
+	<div class="portfolio-text">
+		<p>
+			Check out the previous projects I completed in my spare time.
+			I enjoy learning about whatever gauges my interest at any particular time.
+			This section will stay updated as I work on new projects.
+		</p>
+	</div>
+	{{ range .Paginator.Pages.ByDate.Reverse }}
+	<div class="project">
+		<div class="project-title">
+			<a href="{{ .RelPermalink }}" class="h2 project-title-link">{{ .Title }}</a>
+		</div>
+		<ul class="project-item-list">
+			<li>
+				<strong class="project-item">Summary: </strong>{{ .Params.projectSummary }}
+			</li>
+			<li>
+				<strong class="project-item">Languages: </strong>{{ .Params.projectLanguages }}
+			</li>
+			<li>
+				<strong class="project-item">Technologies: </strong>{{ .Params.projectTechnologies }}
+			</li>
+			<li>
+				<strong class="project-item">Season: </strong>{{ .Params.projectSeason }}
+			</li>
+			<li>
+				<strong class="project-item">Project URL: </strong>
+				<a href="{{ .Params.projectURL }}" class="long-url">{{ .Params.projectURL }}</a>
+			</li>
+			{{ if .Params.projectDemo }}
+			<li>
+				<strong class="project-item">Demo: </strong>
+				<a href="{{ .Params.projectDemo }}" class="long-url">{{ .Params.projectDemo }}</a>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+	{{ end }}
+</div>
+
+{{ partial "footer/site-footer.html" . }}

@@ -8,7 +8,8 @@ a:hover {
 	transition: background-color 0.2s ease-out;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "Montserrat", sans-serif;
 	color: #111;
 	font-weight: 700;
@@ -16,12 +17,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 0.6em 0;
 }
 
-h1 {
+h1, .h1 {
 	font-size: calc(2.5em + 1vw);
 }
 
-h2 {
+h2, .h2 {
 	font-size: calc(1.8em + 0.75vw);
+}
+
+li {
+	margin: 0.2em 0;
 }
 
 .grid {
@@ -189,5 +194,49 @@ h2 {
 		text-align: center;
 		padding: calc(10px + 0.5vw) 0;
 	}
+}
+
+.portfolio-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: calc(12px + 0.25vw);
+	color: #111;
+	line-height: calc(1.6em + 0.5vw);
+}
+
+.project {
+	background-color: #f2f2f2;
+	border: 2px dashed #ddd;
+	margin: 2em 0;
+}
+
+.project-title {
+	margin: 1.6em 0 1.6em 0.6em;
+}
+
+.project-title-link {
+	padding: 0.1em 0.2em;
+}
+
+.project-item-list {
+	list-style: none;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: calc(12px + 0.25vw);
+	color: #111;
+	line-height: calc(1.6em + 0.5vw);
+	margin-left: 1.2em;
+}
+
+.project-item {
+	margin-right: 0.5em;
+}
+
+.long-url {
+	color: #2a7ae2;
+	word-wrap: break-word;
+}
+
+.long-url:visited {
+	color: #1756a9;
 }
 
