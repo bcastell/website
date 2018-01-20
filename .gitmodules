@@ -1,0 +1,4 @@
+[submodule "bcastellanos.com/public"]
+	path = bcastellanos.com/public
+	url = git@github.com:bcastell/bcastell.github.io.git
+	branch = master
