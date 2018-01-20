@@ -1,0 +1,260 @@
+a {
+	padding: 0.4em;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #feda00;
+	transition: background-color 0.2s ease-out;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Montserrat", sans-serif;
+	color: #111;
+	font-weight: 700;
+	line-height: calc(1.2em + 0.5vw);
+}
+
+h1, .h1 {
+	font-size: calc(2.5em + 1vw);
+	margin: 0 0 0.6em 0;
+}
+
+h2, .h2 {
+	font-size: calc(1.8em + 0.75vw);
+	margin: 0 0 0.5em 0;
+}
+
+li {
+	margin: 0.2em 0;
+}
+
+::-moz-selection {
+	background: #feda00;
+}
+
+::selection {
+	background: #feda00;
+}
+
+.grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	background-color: #fafafa;
+	margin: 0.75em 0 0 0;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	grid-column: 1 / 13;
+	margin-bottom: 4em;
+}
+
+.header-link {
+	font-family: "Montserrat", sans-serif;
+	font-size: calc(14px + 0.5vw);
+	color: #111;
+	margin: 0 0.5em;
+}
+
+.header-title {
+	font-size: calc(18px + 1.0vw);
+	color: #000;
+	margin: 0;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	grid-column: 2 / 12;
+}
+
+.homepage-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: calc(12px + 0.25vw);
+	color: #111;
+	line-height: calc(1.6em + 0.5vw);
+}
+
+.homepage-content {
+	display: flex;
+}
+
+.homepage-welcome {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+.homepage-frame {
+	width: 30%;
+	margin-left: 2em;
+}
+
+.homepage-img {
+	border: 1px solid black;
+	padding: 5%;
+	width: 90%;
+	max-width: 90%;
+}
+
+.signature {
+	font-family: 'Dancing Script', cursive;
+	font-size: calc(32px + 0.5vw);
+	line-height: calc(1.2em + 1vw);
+	margin: 0.8em 0;
+}
+
+@media (max-width: 800px) {
+	.homepage-content {
+		flex-direction: column;
+	}
+
+	.homepage-welcome {
+		width: 100%;
+	}
+
+	.homepage-frame {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.homepage-img {
+		padding: 2%;
+		width: 50%;
+		max-width: 50%;
+		display: block;
+		margin: 0 auto;
+		min-width: 120px;
+	}
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-top: 1px solid #111;
+	grid-column: 2 / 12;
+	margin: 4em 0 3em 0;
+}
+
+.footer-rights {
+	font-family: 'Open Sans', sans-serif;
+	font-size: calc(12px + 0.25vw);
+	font-weight: 700;
+	margin-top: 4em;
+	margin-bottom: 1em;
+}
+
+.footer-notes {
+	font-family: 'Open Sans', sans-serif;
+	font-size: calc(10px + 0.2vw);
+	color: #777;
+	line-height: calc(1.4em + 0.5vw);
+	margin-bottom: 2.2em;
+}
+
+.footer-link {
+	color: #555;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.contact-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: calc(12px + 0.25vw);
+	color: #111;
+	line-height: calc(1.6em + 0.5vw);
+	margin: 0 0 2em 0;
+}
+
+.contact-button {
+	display: inline-block;
+	border: 0.35em solid black;
+	padding: calc(10px + 0.5vw) calc(40px + 4vw);
+	margin: 1.5em 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: calc(10px + 0.5vw);
+	color: #111;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.contact-button:hover {
+	background-color: #aaa;
+}
+
+.email-button {
+	align-self: center;
+	margin: 1.5em 0 3.5em 0;
+}
+
+.contact-media {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-media-group {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media (max-width: 840px) {
+	.contact-media-group {
+		flex-direction: column;
+	}
+
+	.social-button {
+		text-align: center;
+		padding: calc(10px + 0.5vw) 0;
+	}
+}
+
+.portfolio-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: calc(12px + 0.25vw);
+	color: #111;
+	line-height: calc(1.6em + 0.5vw);
+}
+
+.project {
+	background-color: #f2f2f2;
+	border: 2px dashed #ddd;
+	margin: 2em 0;
+}
+
+.project-title {
+	margin: 1em 0 1.6em 0.6em;
+}
+
+.project-title-link {
+	padding: 0.1em 0.2em;
+}
+
+.project-item-list {
+	list-style: none;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: calc(12px + 0.25vw);
+	color: #111;
+	line-height: calc(1.6em + 0.5vw);
+	margin-left: 1.2em;
+}
+
+.project-item {
+	margin-right: 0.5em;
+}
+
+.long-url {
+	color: #2a7ae2;
+	word-wrap: break-word;
+}
+
+.long-url:visited {
+	color: #1756a9;
+}
+

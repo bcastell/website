@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Brandon&#39;s Personal Website</title>
+    <link>https://bcastell.github.io/</link>
+    <description>Recent content in Home on Brandon&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Dec 2017 12:37:16 -0800</lastBuildDate>
+    
+	<atom:link href="https://bcastell.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://bcastell.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bcastell.github.io/contact/</guid>
+      <description>Let&#39;s connect.  Whether you are just saying hi, asking a quick question, or looking for a long chat, I would love to hear from you. There are several ways to reach me so choose the one that best suits your needs.  If English is not ideal, let&#39;s try Spanish.  Shoot me an email. Looking for a quick and easy way to get in touch with me? Feel free to send me an email.</description>
+    </item>
+    
+    <item>
+      <title>Connect Four</title>
+      <link>https://bcastell.github.io/portfolio/connect-four/</link>
+      <pubDate>Tue, 16 Jan 2018 12:58:39 -0800</pubDate>
+      
+      <guid>https://bcastell.github.io/portfolio/connect-four/</guid>
+      <description>In-depth write-up coming soon.  </description>
+    </item>
+    
+    <item>
+      <title>Starfighter</title>
+      <link>https://bcastell.github.io/portfolio/starfighter/</link>
+      <pubDate>Tue, 16 Jan 2018 12:58:29 -0800</pubDate>
+      
+      <guid>https://bcastell.github.io/portfolio/starfighter/</guid>
+      <description>In-depth write-up coming soon.  </description>
+    </item>
+    
+    <item>
+      <title>Scribble</title>
+      <link>https://bcastell.github.io/portfolio/scribble/</link>
+      <pubDate>Tue, 16 Jan 2018 12:58:22 -0800</pubDate>
+      
+      <guid>https://bcastell.github.io/portfolio/scribble/</guid>
+      <description>In-depth write-up coming soon.  </description>
+    </item>
+    
+    <item>
+      <title>Ping-Viewer</title>
+      <link>https://bcastell.github.io/portfolio/ping-viewer/</link>
+      <pubDate>Tue, 16 Jan 2018 12:58:16 -0800</pubDate>
+      
+      <guid>https://bcastell.github.io/portfolio/ping-viewer/</guid>
+      <description>In-depth write-up coming soon.  </description>
+    </item>
+    
+  </channel>
+</rss>
