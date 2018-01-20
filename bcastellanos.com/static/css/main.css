@@ -14,19 +14,28 @@ h1, h2, h3, h4, h5, h6,
 	color: #111;
 	font-weight: 700;
 	line-height: calc(1.2em + 0.5vw);
-	margin: 0 0 0.6em 0;
 }
 
 h1, .h1 {
 	font-size: calc(2.5em + 1vw);
+	margin: 0 0 0.6em 0;
 }
 
 h2, .h2 {
 	font-size: calc(1.8em + 0.75vw);
+	margin: 0 0 0.5em 0;
 }
 
 li {
 	margin: 0.2em 0;
+}
+
+::-moz-selection {
+	background: #feda00;
+}
+
+::selection {
+	background: #feda00;
 }
 
 .grid {
@@ -94,6 +103,13 @@ li {
 	max-width: 90%;
 }
 
+.signature {
+	font-family: 'Dancing Script', cursive;
+	font-size: calc(32px + 0.5vw);
+	line-height: calc(1.2em + 1vw);
+	margin: 0.8em 0;
+}
+
 @media (max-width: 800px) {
 	.homepage-content {
 		flex-direction: column;
@@ -154,6 +170,7 @@ li {
 	font-size: calc(12px + 0.25vw);
 	color: #111;
 	line-height: calc(1.6em + 0.5vw);
+	margin: 0 0 2em 0;
 }
 
 .contact-button {
@@ -173,6 +190,7 @@ li {
 
 .email-button {
 	align-self: center;
+	margin: 1.5em 0 3.5em 0;
 }
 
 .contact-media {
@@ -210,7 +228,7 @@ li {
 }
 
 .project-title {
-	margin: 1.6em 0 1.6em 0.6em;
+	margin: 1em 0 1.6em 0.6em;
 }
 
 .project-title-link {

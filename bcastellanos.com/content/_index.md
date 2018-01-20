@@ -12,24 +12,18 @@ draft = false
 			<h1>Welcome,</h1>
 			<div class="homepage-text">
 				<p>
-					My name is Brandon Castellanos. I am a software engineer from the University of Southern California.
-					I graduated with a B.S. in Computer Engineering in Spring 2017.
-					Throughout my university years, I interned at Northrop Grumman and Qualcomm in the summers of 2015 and 2016, respectively.
+					My name is Brandon Castellanos. I'm a software engineer with a B.S. in
+                    Computer Engineering from the University of Southern California.
 				</p>
 				<p>
-					Have a look around my website. Hopefully you find something interesting and what you are looking for.
-				</p>
-				<p>
-					I will continue to keep this website updated with my latest thoughts. Writing good content is what I strive to do all the time.
-				</p>
-				<p>
-					So remember to have a good time and thanks for visiting.
+					Few things get me as excited as creating simple solutions to complex problems.
+					Philosophical talks with Uber drivers and eating Cheez-Its get pretty close.
 				</p>
 				<p>
 					Cheers,
 				</p>
-				<p>
-					Brandon
+				<p class="signature">
+					Brandon Castellanos
 				</p>
 			</div>
 		</div>
